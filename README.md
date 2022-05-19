@@ -14,7 +14,7 @@ Alternatively, you can install the library from pip
 
 #Execution
 The code is exicuted with "main.py" with the following flags:
-    '--dataset-name' takes the name of the dataset of 'type=str' with arguments 'la' or 'bay' for the 'MetrLA()' or 'PemsBay()' dataset respectively.
+'--dataset-name' takes the name of the dataset of 'type=str' with arguments 'la' or 'bay' for the 'MetrLA()' or 'PemsBay()' dataset respectively.
 
     '--model' takes the name of the model with arguments 'transformer' or 'graphormer' for the 'TransformerModel' or 'GraphormerModel' respectively.
 
