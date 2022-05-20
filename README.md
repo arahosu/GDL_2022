@@ -4,7 +4,7 @@ USI Lugano Graph Deep Learning (Spring 2022) project
 Team members: Joonsu Gha ([**@arahosu**](https://github.com/arahosu)), Rahil Doshi ([**@rahildoshi97**](https://github.com/rahildoshi97)), Naga Venkata Sai Jitin Jami ([**@jitinjami**](https://github.com/jitinjami))
 
 ## Installation
-'tsl' is compatible with Python>=3.7. Our implementation of the Graphormer model is available [here](https://github.com/arahosu/tsl), which was forked from the original tsl library. In order to run experiments on the Graphormer model, you must install from the forked repository, not the original tsl repository.
+'tsl' is compatible with Python>=3.7. Our implementation of the Graphormer model is available [here](https://github.com/arahosu/tsl), which is a forked version of the tsl library. In order to run experiments on the Graphormer model, you must install from our forked repository, not the original tsl repository.
 
 ```bash
 git clone git clone https://github.com/arahosu/tsl.git
