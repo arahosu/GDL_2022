@@ -3,7 +3,7 @@ USI Lugano Graph Deep Learning (Spring 2022) project
 #
 Team members: Joonsu Gha ([**@arahosu**](https://github.com/arahosu)), Rahil Doshi ([**@rahildoshi97**](https://github.com/rahildoshi97)), Naga Venkata Sai Jitin Jami ([**@jitinjami**](https://github.com/jitinjami))
 
-#Installation
+# Installation
 'tsl' is compatible with Python>=3.7. We recomend installation from the source to get the latest version:
     git clone hhtps://github.com/TorchSpatiotemporal/tsl.git
     cd tsl
@@ -12,7 +12,7 @@ Team members: Joonsu Gha ([**@arahosu**](https://github.com/arahosu)), Rahil Dos
 Alternatively, you can install the library from pip
     pip install torch-spatiotemporal
 
-#Execution
+# Execution
 The code is exicuted with "main.py" with the following flags:
 '--dataset-name' takes the name of the dataset of 'type=str' with arguments 'la' or 'bay' for the 'MetrLA()' or 'PemsBay()' dataset respectively.
 
