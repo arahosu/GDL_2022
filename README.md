@@ -7,7 +7,7 @@ Team members: Joonsu Gha ([**@arahosu**](https://github.com/arahosu)), Rahil Dos
 'tsl' is compatible with Python>=3.7. Our implementation of the Graphormer model is available [here](https://github.com/arahosu/tsl), which is a forked version of the tsl library. In order to run experiments on the Graphormer model, you must install from our forked repository, not the original tsl repository.
 
 ```bash
-git clone git clone https://github.com/arahosu/tsl.git
+git clone https://github.com/arahosu/tsl.git
 cd tsl
 python setup.py install  # Or 'pip install .'
 ```
