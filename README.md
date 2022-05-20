@@ -3,16 +3,16 @@ USI Lugano Graph Deep Learning (Spring 2022) project
 #
 Team members: Joonsu Gha ([**@arahosu**](https://github.com/arahosu)), Rahil Doshi ([**@rahildoshi97**](https://github.com/rahildoshi97)), Naga Venkata Sai Jitin Jami ([**@jitinjami**](https://github.com/jitinjami))
 
-# Installation
-'tsl' is compatible with Python>=3.7. We recomend installation from the source to get the latest version:
-    git clone hhtps://github.com/TorchSpatiotemporal/tsl.git
-    cd tsl
-    pip install .
+## Installation
+'tsl' is compatible with Python>=3.7. Our implementation of the Graphormer model is available [here](https://github.com/arahosu/tsl), which was forked from the original tsl library. In order to run experiments on the Graphormer model, you must install from the forked repository, not the original tsl repository.
 
-Alternatively, you can install the library from pip
-    pip install torch-spatiotemporal
+```bash
+git clone git clone https://github.com/arahosu/tsl.git
+cd tsl
+python setup.py install  # Or 'pip install .'
+```
 
-# Execution
+## Execution
 The code is exicuted with "main.py" with the following flags:
 '--dataset-name' takes the name of the dataset of 'type=str' with arguments 'la' or 'bay' for the 'MetrLA()' or 'PemsBay()' dataset respectively.
 
