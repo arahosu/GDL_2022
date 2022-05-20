@@ -23,8 +23,6 @@ from tsl.ops.connectivity import edge_index_to_adj
 import matplotlib.pyplot as plt
 from copy import deepcopy
 
-
-
 parser = argparse.ArgumentParser()
 parser.add_argument("--dataset-name", type=str, default='la')
 parser.add_argument("--model", type= str, default = 'graphormer')
@@ -59,6 +57,7 @@ if args.model == 'transformer':
     model = TransformerModel
 elif args.model == 'graphormer':
     model = GraphormerModel
+    assert args.axis == 'both', "Graphormer currently supports axis='both' only"
 
 df, dist, mask = dataset.load()
 dist[dist == float('inf')] = 0
